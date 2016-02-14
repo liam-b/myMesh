@@ -4,7 +4,7 @@
     $.getScript('https://cdn.firebase.com/js/client/2.2.4/firebase.js');
     window['temp'] = 0; // init
    
-    var fb = new Firebase("https://scratchx.firebaseio.com/"); //Create a firebase reference
+    var fb = new Firebase("https://blinding-fire-4702.firebaseio.com"); //Create a firebase reference
     
     // Cleanup function when the extension is unloaded
     ext._shutdown = function() {};
